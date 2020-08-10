@@ -2,7 +2,7 @@
 # Autonomous_Traversal
  Gazebo simulation of a 4 wheeled skid steer bot implementing autonomous traversal without  as well as traversal with obstacle avoidance using a GPS, an IMU, Kinect.
 
-## Installation
+# Installation
    1. Install:
       ```bash
          sudo apt-get install ros-melodic-depthimage-to-laserscan
@@ -24,4 +24,4 @@
          chmod +x obstacleavoidance.py
          rosrun mybot_description obstacleavoidance.py
       ```
-   5.GPS cordinates of the goal can be edited in the script by extracting them from rostopic /fix
+   Note: GPS cordinates of the goal can be edited in the script by extracting them from rostopic /fix
