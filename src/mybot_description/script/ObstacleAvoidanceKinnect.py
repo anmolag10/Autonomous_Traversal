@@ -52,7 +52,7 @@ class Avoidance():
         bearing, reverse_bearing, dist = geodesic.inv(
             self.lon1, self.lat1, self.lon2, self.lat2)
         bearing = bearing + 180
-        # Finding angle dfference between the orienteation of the bot and the rover
+        # Finding angle dfference between the orienteation of the bot and  goal
         angle_diff = self.yaw - bearing
 
         # Publishing angular speed in z axis needed to orient it properly
