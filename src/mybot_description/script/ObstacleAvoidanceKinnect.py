@@ -124,7 +124,7 @@ class Avoidance():
         speed_msg.angular.z = angular_z
         pub.publish(speed_msg)
 
-# Callback function for extracting the LaserScan values from the Kinect
+# Callback function for extracting the LaserScan values from  Kinect
     def kinect_callback(self, msg):
         newranges = []
         # Filtering nan values recieved from the sensor
